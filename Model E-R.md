@@ -164,17 +164,7 @@ erDiagram
 
 ---
 
-## 3. Supòsits i observacions sobre el PDF
-
-1. **`Carrega` (Mascota – Item):** al PDF no hi ha cardinalitats. Hem assumit 1:N (una mascota carrega molts ítems, que formen la seva motxilla). Si es volgués M:N, només caldria canviar `|o--o{` per `}o--o{`.
-2. **Atribut `Comerciable` duplicat a `ITEM`:** apareix dues vegades al PDF (una sense punt i l'altra amb punt groc). Un atribut no pot repetir-se dins d'una entitat, així que només n'hem deixat un, marcat com a `"NOT NULL"`. Convindria revisar si un dels dos era un altre atribut (per exemple, `Apilable`).
-3. **Relació `Poseeix`:** hem corregit l'ortografia a `posseeix`.
-4. **Tipus de dada:** el PDF no els indica; hem triat `string` per a identificadors i textos, `int` per a estadístiques numèriques, `float` per a `Pes` i mesures, i `boolean` per a `Equipable` i `Comerciable`.
-5. **`Motxilla` (a `MASCOTA`):** el PDF no n'especifica el significat; l'hem deixat com a `string`.
-
----
-
-## 4. Diagrama E/R complet
+## 3. Diagrama E/R complet
 
 ```mermaid
 erDiagram
