@@ -1,3 +1,5 @@
+### Iker Burgos Lorente    1rASIX    26/10/2026 
+
 ## 1. Diagrama E/R complet
 
 ```mermaid
