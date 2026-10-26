@@ -63,3 +63,4 @@ erDiagram
     PERSONATGE }o--o{ ITEM : Equipa
     MASCOTA |o--o{ ITEM : Carrega
 ```
+## Explicació mermaid
