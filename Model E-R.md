@@ -53,11 +53,11 @@ erDiagram
     }
 
     %% ===== RELACIONS =====
-    PERSONATGE }o--o{ HABILITAT : posseeix
-    PERSONATGE }o--o{ ENEMIC : enfronta
-    HABILITAT }o--o{ ENEMIC : enfronta
-    HABILITAT }o--o{ HABILITAT : "combina amb"
-    PERSONATGE |o--o| MASCOTA : acompanya
-    PERSONATGE }o--o{ ITEM : equipa
-    MASCOTA |o--o{ ITEM : carrega
+    PERSONATGE }o--o{ HABILITAT : Posseeix
+    PERSONATGE }o--o{ ENEMIC : Enfrenta
+    HABILITAT }o--o{ ENEMIC : Enfrenta
+    HABILITAT }o--o{ HABILITAT : "Combina amb"
+    PERSONATGE |o--o| MASCOTA : Acompanya
+    PERSONATGE }o--o{ ITEM : Equipa
+    MASCOTA |o--o{ ITEM : Carrega
 ```
