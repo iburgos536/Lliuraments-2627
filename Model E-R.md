@@ -63,7 +63,7 @@ erDiagram
     PERSONATGE }o--o{ ITEM : Equipa
     MASCOTA |o--o{ ITEM : Carrega
 ```
-## Explicació mermaid
+
 # Explicación del modelo entidad-relación (Mermaid)
 
 ## 1. Entidades
